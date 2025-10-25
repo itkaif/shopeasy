@@ -288,7 +288,7 @@ header{
 						}
 
 					#Categories div img{
-						height:70%;
+						height:60%;
 					padding-top:10%;
 					max-width:80%;
 
@@ -812,6 +812,7 @@ h{
         grid-template-columns: repeat(2, 1fr);
       }
     }
+
 
 
 
