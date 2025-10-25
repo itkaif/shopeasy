@@ -12,6 +12,9 @@ justify-content:center;
 
 
 }
+	.procontainer{
+		padding:10px;
+	}
 
 .logo2{
 	position:fixed;
@@ -184,6 +187,7 @@ height:60px;
 	
 
 }
+
 
 
 
