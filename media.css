@@ -65,6 +65,49 @@ height:60px;
 
 
 
+										#a{
+											height:220px;
+											width:100%;
+										overflow:	hidden;
+											border:solid 5px white;}
+
+
+											*{padding:0px;
+											margin:0px;}
+										#b{
+											width:600%;
+											height:220px;
+											position:relative;
+											animation: ee 100s infinite;
+											background-size:cover;
+										}
+											
+											
+										#b img{
+											width:20%;
+											float:left;
+											height:80%;
+										}
+										@keyframes ee{
+											0%{left:0;}
+											
+											25%{left:0%;}
+											
+											30%{left:-130%;}
+											
+											50%{left:-130%;}
+											
+											55%{left:-240%;}
+											
+											75%{left:-240%;}
+										80%{left:-360%;}
+										100%{left:-360%;}
+										} 
+
+
+
+
+
 	
 	 
 	
@@ -141,6 +184,7 @@ height:60px;
 	
 
 }
+
 
 
 
