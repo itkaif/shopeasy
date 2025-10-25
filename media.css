@@ -37,7 +37,34 @@ justify-content:center;
     padding: 20px 0;
     margin-top: 20px;
 }
-.navbar{
+
+.navbar {
+height:60px;	
+}
+								ul{
+													text-align:center;
+													margin-left:70px;}
+										li{padding:2px 0px;
+
+										}
+										nav p{flex-direction:rows;
+										}
+										li:hover{
+													background:aqua;
+													color:red;
+													list-style:none;
+													border-radius:5px;
+    transition: color 0.3s; 
+													}
+
+										nav{
+												flex-direction:column;
+													text-align:center;
+													
+													}
+
+
+
 	
 	 
 	
@@ -114,6 +141,7 @@ justify-content:center;
 	
 
 }
+
 
 
 
