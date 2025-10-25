@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shop Easy Sign in</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+	<link rel="stylesheet" href="sign inweb.css">
+    
+<body>
+
+
+    <div class="signin">
+		<h1 class="navlogo" style="color:red;">*ShopEasy*</h1>
+	 
+        <ul class="nav-links">
+            <li style="font-size:20px;"><a  href="D:\First Project\index page\index.html"><b><i>Home</i></b></a></li>
+        </ul>
+	
+        <h1>Welcome back!</h1>
+        <p class="subtitle">Sign In to your account *ShopEasy*</p>
+
+        <form action="../index.html">
+            <input type="text" placeholder="Email/Phone number" aria-label="Email or Phone Number" required>
+            <input type="password" placeholder="Password" aria-label="Password" required>
+	<a href="#" class="forgotpass">Forgotten password &quest; </a>
+
+
+            <div class="checkbox">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">By clicking on 'sign up', you're agreeing to the *ShopEasy* app *Terms of Service and Privacy Policy*</label>
+            </div>
+			
+			<p class="singin">Don't have an account &quest; <a href="../Sign up Page/sign up.html" class="button2">Sign Up </a> 
+
+            <button type="submit" class="button">Sign In</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+<style>
+
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #e6f7ef;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    padding-top: 25px; 
+    min-height: 100%;
+}
+
+
+.signin{
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left; 
+	box-shadow:0 0 7px rgba(0,0,0,0.8);
+	border-radius:10px;
+}
+
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding/border in the element's total width/height */
+    font-size: 16px;
+    color: #333;
+  box-shadow:0 0 7px rgba(0,0,0,0.8); /* Subtle shadow for a slightly raised look */
+}
+
+form input::placeholder {
+    color: #aaa;
+}
+
+
+.checkbox {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #333;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 10px;
+    margin-top: 2px;
+    min-width: 16px;
+    min-height: 16px;
+    accent-color: #3c5a99; 
+}
+
+.checkbox label strong {
+    font-weight: bold;
+}
+
+
+.button {
+    width: 100%;
+    padding: 15px;
+    background-color: #3c5a99;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: #2b457b;
+}
+
+.singin{
+	color:var;
+	
+}
+
+.button2{
+	color:blue;
+	text-decoration:none;
+	font-weight:600;
+	
+}
+
+.singin button2:hover{
+	text-decoration:underline;
+}
+
+
+</style>
