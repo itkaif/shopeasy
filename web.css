@@ -23,8 +23,7 @@ header{
 	border-bottom:1px solid #ccc;
 	align-items:center;
 	gap:35px;
-	position:sticky;
-	top:0px;
+	
 	background-color:aqua;
 	z-index:1000;
 	
@@ -95,9 +94,7 @@ header{
     padding: 15px 18px; 
     background-color: #ffffff;
     border-bottom: 1px solid #e0e0e0;
-	position:sticky;
-	top:82px;
-	z-index:1000;
+	
 }
 
 
@@ -113,11 +110,14 @@ header{
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; 
+  display: flex; 
 }
 
 .nav-links li {
     margin-left: 30px;
+font-weight:bold;  
+  font-size:20px;
+	
 }
 
 
@@ -580,7 +580,8 @@ h{
     .itemcard {
      
       border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+						box-shadow:0 0 7px rgba(0,0,0,0.8);
+      height="auto"
       
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       
@@ -592,9 +593,9 @@ h{
     .itemcard img {
       max-width:100%;
       height:auto;
-	  margin-left:10px;
       object-fit: cover;
-      display: block;
+      
+	  display: block;
     }
 
    
